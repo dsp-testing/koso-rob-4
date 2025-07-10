@@ -8,7 +8,6 @@ multi-ecosystem-groups:
   all-deps:
     schedule:
       interval: daily
-
 updates:
   - package-ecosystem: "docker"
     directory: "/"
