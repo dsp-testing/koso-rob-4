@@ -6,8 +6,8 @@
 version: 2
 multi-ecosystem-groups:
   all-deps:
-    schedule:
-      interval: daily
+      interval: cron
+      cronjob: 0 16 * * *
 updates:
   - package-ecosystem: "docker"
     directory: "/"
